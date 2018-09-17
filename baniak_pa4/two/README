@@ -1,0 +1,23 @@
+
+ Connor Baniak
+ cs2750 pa_4
+ 4/1/18
+
+ This program asks the user to enter a 10 digit
+ phone number in a format of their choosing.
+
+ Returns phone number in the (xxx) xxx-xxxx format.
+
+ makefile
+ 	cc - sets the compiler
+	cflags - execution rules
+	src - gathers headers files for source
+	obj - creates object files
+
+phone - the name of the executable
+
+phone.o - builds the phone.o file with proper header files
+
+phone_fmt.o - builds phone_fmt.o with proper header files
+ 	
+clean - removes all files ending in .o or named phone

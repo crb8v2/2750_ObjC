@@ -1,0 +1,21 @@
+Script started on Thu 25 Jan 2018 06:46:11 PM CST
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[?1034h[crb8v2@delmar baniak_quiz2]$ pwd
+/accounts/students/c/crb8v2/private/baniak_quiz2
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[crb8v2@delmar baniak_quiz2]$ mkdir output
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[crb8v2@delmar baniak_quiz2]$ chmod 700 output
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[crb8v2@delmar baniak_quiz2]$ ls -al
+total 0
+drwxr-xr-x 3 crb8v2 students 31 Jan 25 18:46 [0m[38;5;27m.[0m
+drwx------ 4 crb8v2 students 44 Jan 25 18:46 [38;5;27m..[0m
+drwx------ 2 crb8v2 students  6 Jan 25 18:46 [38;5;27moutput[0m
+-rw-r--r-- 1 crb8v2 students  0 Jan 25 18:46 quiz2
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[crb8v2@delmar baniak_quiz2]$ pwd
+/accounts/students/c/crb8v2/private/baniak_quiz2
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2[crb8v2@delmar baniak_quiz2]$ cd output
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2/output[crb8v2@delmar output]$ ls >> output.txt
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2/output[crb8v2@delmar output]$ date >>output.[K[K[K[K[K[K[K output.txt
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2/output[crb8v2@delmar output]$ pwd >> output.txt
+]0;crb8v2@cat /etc/hostname:~/private/baniak_quiz2/output[crb8v2@delmar output]$ pwd[K[K[Kexit
+exit
+
+Script done on Thu 25 Jan 2018 06:47:22 PM CST

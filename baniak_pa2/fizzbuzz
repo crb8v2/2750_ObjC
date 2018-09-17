@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ $# -ge 1 ]
+then
+	n=$1
+else
+	n=20
+fi
+echo number $n
+m=1
+while [ $n -ge $m ]
+do
+	if ((( $m % 3 == 0 ) && ( $m % 5 == 0 ))) 
+	then
+	echo $m fizzbuzz
+
+	elif (( $m % 3 == 0))
+	then 
+	echo $m fizz
+
+	elif (( $m % 5 == 0))
+	then 
+	echo $m buzz
+ 	
+	else
+	echo $m
+	fi
+	((m++))
+done

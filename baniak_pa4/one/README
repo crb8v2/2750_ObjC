@@ -1,0 +1,25 @@
+
+Connor Baniak
+cs2750 pa_4
+4/1/18
+
+This is a program that takes in an array of of arguments, determines
+if each string is a number or a character string.
+
+Numbers are added to another. Strings check if they are a substring
+of any char string in the rest of the array.
+
+The makefile:
+	cc - chooses the compiler
+	cflags - environment variable
+	src - obtains header files for the source
+	obj - links to object file
+
+deater is the name of the executable
+
+main.o and func.o are object files
+
+clean - removes any files ending in .o and the deater file
+
+*** printing substrings before the total of the integers 
+*** was approved by yousefi

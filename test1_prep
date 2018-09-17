@@ -1,0 +1,48 @@
+Thursday
+10 Questions/ 10 pts - 1 EC
+
+file permissions - umask 
+	rwx, octal, chmod, u+x, g+r, g=r, g-r, 
+
+grep/egrep
+	search for some string, write grep command
+
+find "*.ext", find files
+
+tar -xvf options 
+	archive file / zip file
+
+sed 
+	search, remove, replace
+
+awk - can do more than sed
+	can create script to search and replace something like sed
+
+what is the output of this command?
+	what a script does
+
+bash shell
+	variables, calling shell type
+
+write a bash script
+	3-4 lines to print output that is given
+
+cmds 
+	test, define 
+
+write a sed script that removes the lines the include...
+
+regex - must understand for awk, sed, grep
+
+sed - find a specific location/ pattern
+	display the lines in readme.txt that start with a capital letter
+		or that starts with A and S.
+	could use grep, egrep, sed - grep is easiest
+	
+	display all the lines that end with a commma
+
+display the files that end in .cpp or .c in the current OR subdirectories
+
+awk command that displays each line in a readme.txt that has more than 5 words
+
+

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ -n "$1" ]
+then
+a=$1
+else
+a=`pwd`
+fi
+
+cd $a
+
+echo Files and Sizes
+find -type f -printf '%f \t %s \n' | sort -nk 2
+
+echo
+echo
+echo Files that contain 0 bytes:
+find -type f -empty 
+echo "\nWould you like to erase them? (y/n)"
+read yn
+
+if [ "$yn" == "y" ] 
+then
+find -type f -empty -delete
+echo Files were deleted
+else
+echo Files were not deleted
+fi
+

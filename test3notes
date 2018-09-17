@@ -1,0 +1,19 @@
+9 questionts 1 EC
+
+why do we use gprof to check code?
+
+why do we have to use gbd?
+	what are the flags we use? using to bebug?
+
+why we are using git/ version control
+	pull, fetch, commit, message
+	how to pull and clone a repo
+
+exec calls, exec, execl - differences between calls
+
+definition for macros and to be able to write a simple macro
+	sqrt two nums, mult, add
+
+given code and find the errors.
+
+scanf, printf from an array, using a loop to access indexes

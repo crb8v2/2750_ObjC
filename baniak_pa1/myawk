@@ -1,0 +1,9 @@
+BEGIN { print "<< Start of file >>"}
+{
+while(NR > 2 && NR < 6){
+	for(i=0; i<NF; i++){printf $(NF-i)" ";}
+	print " ";
+	N += NF;
+	next};
+}
+END { print "<< End of file: wordCount = "N" >>"}
